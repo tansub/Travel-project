@@ -1,0 +1,30 @@
+/* header */
+header {
+    height: 4rem;
+    width: 100%;
+
+    padding: 1rem;
+}
+
+/* nav */
+#navigation {
+    display: none;
+}
+#container-nav {
+    position: absolute;
+    width: 12rem;
+    background-color: rgba(72,87,110,0.7);
+
+    padding: 1rem;
+    right: 0rem;
+    top: 0;
+
+    display: none;
+}
+nav li {
+    text-align: left;
+    height: 2rem;
+}
+
+
+

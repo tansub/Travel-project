@@ -1,0 +1,8 @@
+footer {
+    width: 100%;
+    background-color: rgba(182,92,57,255);
+    padding: 1rem;
+}
+footer div {
+    width: 6rem;
+}

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+    list-style: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2,h3,h4,div,a {
+    color: white;
+}
+
+/* link */
+a {
+    text-decoration: none;
+}
+/* list item */
+li:hover {
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+/* button */
+.hero button a {
+    color: rgb(93,99,108);
+}
+button a:hover {
+    color: white;
+}
+button {
+    width: 12rem;
+    height: 2rem;
+    font-size: 20px;
+
+    border: none;
+    border-radius: 1rem;
+}
+button:hover {
+    background-color: rgb(93,99,108);
+    color: white;
+
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
+/* svg */
+svg:hover path{
+    fill: rgb(93,99,108);
+    transition-duration: 0.3s;
+}
+
+/* cards */
+.cover:hover {
+    transition-duration: 1s;
+    opacity: 1;
+}
+
+
+/* FLEX */
+.d-flex {
+    display: flex;
+}
+.jc-c {
+    justify-content: center;
+}
+.jc-sb {
+    justify-content: space-between;
+}
+.jc-se {
+    justify-content: space-evenly;
+}
+.ai-c {
+    align-items: center;
+}
+.ai-s {
+    align-items: start;
+}
+.f-column {
+    flex-direction: column;
+}
+.f-row {
+    flex-direction: row;
+}
+
+/* BORDER */
+.b-radius {
+    border-radius: 1rem;
+}
+.b-none {
+    border: none;
+}

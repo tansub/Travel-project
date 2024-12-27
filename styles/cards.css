@@ -1,0 +1,80 @@
+/* hero */
+.hero-trips {
+    background-image: url(../img/jonny-mckenna-4igCpD-Lnfg-unsplash.jpg);
+}
+
+.hero-trips h1 {
+    margin: 1rem auto;
+    color: white;
+    font-size: 30px;
+}
+
+/* activities */
+.activities {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.activity {
+    height: 7rem;
+    width: 30%;
+   
+    background-color: rgba(26,26,26,0.5);
+    margin: 2rem;
+}
+.activity p {
+    display: none;
+}
+.activities svg:hover path{
+    fill: transparent;
+}
+
+/* main */
+main {
+    background-color: rgba(26,26,26,255);
+}
+main a {
+    text-decoration: underline;
+    font-size: 18px;
+}
+#trips {
+    margin-top: 5rem;
+}
+
+/* cards */
+.card {
+    height: 21rem;
+    width: 23rem;
+    border-radius: 1rem;
+
+    padding: 1rem;
+    margin: 2rem auto;
+}
+.card:nth-child(6) {
+    margin-bottom: 0;
+}
+.base {
+    width: 20rem;
+    margin: auto;
+    position: relative;
+}
+.cards img {
+    height: 15rem;
+    width: 20rem;
+    border-radius: 1rem;
+}
+.info {
+    display: none;
+}
+.cover {
+    position: absolute;
+    top: 1.8rem;
+    right: 0;
+
+    height: 15rem;
+    width: 20rem;
+    padding: 1rem;
+    background-color: rgba(72,87,110,0.6);
+    border-radius: 1rem;
+    opacity: 0;
+}
+

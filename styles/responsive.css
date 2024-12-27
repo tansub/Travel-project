@@ -1,0 +1,214 @@
+/* header */
+@media screen and (min-width: 700px) {
+    #navigation {
+        display: flex;
+    }
+    #container-nav, .burger {
+        display: none;
+    }
+    #navigation {
+        width: 50%;
+    }
+}
+
+/* MAIN PAGE */
+/* main/hero */
+@media screen and (min-width: 560px) {
+    /* main */
+    .scroll-img {
+        background-position-y: -15rem;
+    }
+}
+@media screen and (min-width: 800px) {
+    /* hero */
+    #search {
+        width: 60%;
+    }
+    .hero button {
+        width: 50%;
+    }
+    /* main */
+    .scroll-img {
+        background-position-y: -20rem;
+    }
+    /* categories */
+    .categories > div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .categories > div:nth-child(2) {
+        flex-direction: row-reverse;
+    }
+    .categories .text {
+        width: 40%;
+    }
+    .categories img {
+        width: 50%;
+    }
+    /* question */
+    #question-field {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 2rem;
+    }
+    .text-question {
+        width: 40%;
+        margin-left: 2rem;
+        font-size: 18px;
+        display: block;
+    }
+}
+@media screen and (min-width: 1045px) {
+    /* hero */
+    .hero {
+        background-position-y: -2rem;
+    }
+    .container-hero {
+        display: flex;
+    }
+    .hero h1 {
+        width: 50%;
+        font-size: 60px;
+        margin: 7rem 0 0 5rem;
+    }
+    .container-hero div {
+        width: 50%;
+        margin: 7rem 0;
+    }
+    #search {
+        height: 16rem;
+    }
+    /* categories */
+    .categories img {
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1113px) {
+    /* hero */
+    .hero {
+        background-position-y: -4rem;
+    }
+}
+@media screen and (min-width: 1180px) {
+    /* hero */
+    header nav li{
+        font-size: 20px;
+    }
+    .hero {
+        background-position-y: -7rem;
+    }
+    /* main */
+    .scroll-img {
+        background-position-y: -30rem;
+    }
+}
+@media screen and (min-width: 1230px) {
+    /* hero */
+    .hero {
+        background-position-y: -9rem;
+    }
+    .hero h1 {
+        font-size: 70px;
+    }
+}
+@media screen and (min-width: 1300px) {
+    /* main */
+    .hero {
+        background-position-y: -11rem;
+    }
+    /* main */
+    .scroll-img {
+        background-position-y: -40rem;
+    }
+    /* question */
+    .text-question {
+        font-size: 22px;
+    }
+}
+
+
+/* TRIPS PAGE */
+@media screen and (min-width: 530px) {
+    /* trips hero */
+    .hero-trips {
+        background-position-y: -8rem;
+    }
+}
+@media screen and (min-width: 638px) {
+    /* trips hero */
+    .hero-trips {
+        background-position-y: -16rem;
+    }
+    .hero h2 {
+        padding-top: 0;
+    }
+    .activities {
+        margin-top: 0;
+    }
+    .activity {
+        height: 12rem;
+        width: 70%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+    .activity p {
+        display: block;
+        width: 70%;
+    }
+    /* cards */
+    .card {
+        width: 38rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .info {
+        width: 50%;
+        font-size: 25px;
+        display: block;
+        text-align-last: left;
+        margin-left: 2rem;
+    }
+    .info svg {
+        margin-top: 15px;
+    }
+}
+@media screen and (min-width: 731px) {
+    /* trips hero */
+    .hero-trips {
+        background-position-y: -24rem;
+    }
+}
+@media screen and (min-width: 867px) {
+    /* trips hero */
+    .hero-trips {
+        background-position-y: -32rem;
+    }
+}
+@media screen and (min-width: 957px) {
+    /* trips hero */
+    .hero-trips {
+        background-position-y: -40rem;
+    }
+}
+@media screen and (min-width: 1059px) {
+    /* trips hero */
+    .hero-trips {
+        background-position-y: -48rem;
+    }
+}
+@media screen and (min-width: 1164px) {
+    /* trips hero */
+    .hero-trips {
+        background-position-y: -56rem;
+    }
+}
+@media screen and (min-width: 1260px) {
+    /* trips hero */
+    .hero-trips {
+        background-position-y: -67rem;
+    }
+}
